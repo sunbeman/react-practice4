@@ -1,0 +1,30 @@
+#Person {
+    height: 100px;
+    width: 50px;
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+
+#person>div {
+    height: 30px;
+}
+
+#person>div:first-child {
+    background-color: blueviolet;
+}
+
+#person>div:nth-child(2) {
+    background-color: chartreuse;
+}
+
+#person>div:nth-child(3) {
+    background-color: chocolate;
+}
+
+#person>div:nth-child(4) {
+    background-color: chocolate;
+}
+
+#person>div:nth-child(5) {
+    background-color: chocolate;
+}

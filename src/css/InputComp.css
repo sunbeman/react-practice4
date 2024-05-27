@@ -1,0 +1,17 @@
+#input-comp {
+    width: 200px;
+    height: 150px;
+    background-color: darkgreen;
+}
+
+#input-comp>input {
+    display: block;
+    width: 90%;
+    margin: 5px;
+}
+
+#input-comp {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
