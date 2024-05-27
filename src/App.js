@@ -41,11 +41,11 @@ class App extends Component {
       if (data.id == id) {
         return { ...data, ...updatedData};
       }
-      return data;
-    });
+      return data
+    })
     this.setState({
       personList: updatedList
-    }, () => console.log(this.state.personList)); // 상태 업데이트 후 콘솔 출력
+    })
   }
 
 
